@@ -106,7 +106,7 @@ namespace PokemonTests
         }
 
         [Theory]
-        [InlineData("charizard", "http://localhost/fake-pokemon-endpoint")]
+        [InlineData("charizard", "http://pokemon.co.fake/fake-pokemon-endpoint")]
         public async void Should_handle_Pokemon_endpoint_not_available(string name, string pokemonEndpoint)
         {
             var logger = PokemonControllerTests.GetMockLogger();
@@ -122,7 +122,7 @@ namespace PokemonTests
         }
 
         [Theory]
-        [InlineData("charizard", "http://localhost/fake-shakespeare-endpoint")]
+        [InlineData("charizard", "https://funtranslations.fake/fake-pokemon-endpoint")]
         public async void Should_handle_Shakespeare_endpoint_not_available(string name, string shakespeareEndpoint)
         {
             var logger = PokemonControllerTests.GetMockLogger();

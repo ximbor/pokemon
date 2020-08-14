@@ -54,6 +54,11 @@ namespace Pokemon.Services
                     throw new PokemonHttpException(exc.Message, System.Net.HttpStatusCode.NotFound);
                 }
 
+                if(exc.HResult== -2147467259)
+                {
+                    throw new PokemonHttpException(exc.Message, HttpStatusCode.RequestTimeout);
+                }
+
                 throw new PokemonHttpException(exc.Message, System.Net.HttpStatusCode.InternalServerError);
             }
         }

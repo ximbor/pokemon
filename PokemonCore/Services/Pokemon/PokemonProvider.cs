@@ -63,6 +63,7 @@ namespace Pokemon.Services
                 var result = (await _client.GetStringAsync($"{GetRoute(PokemonRoutes.SPECIES)}/{name}"));
                 return result;
             }
+
             catch (WebException exc)
             {
                 throw new PokemonHttpException(exc.Message, HttpStatusCode.RequestTimeout);
@@ -76,6 +77,11 @@ namespace Pokemon.Services
                 if(exc.Message.Contains("404 (Not Found)"))
                 {
                     throw new PokemonHttpException(exc.Message, System.Net.HttpStatusCode.NotFound);
+                }
+
+                if (exc.HResult == -2147467259)
+                {
+                    throw new PokemonHttpException(exc.Message, HttpStatusCode.RequestTimeout);
                 }
 
                 throw new PokemonHttpException(exc.Message, System.Net.HttpStatusCode.InternalServerError);
