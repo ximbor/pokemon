@@ -25,3 +25,13 @@ In order to build and start the application run the following script located in 
     ```sh
     $ start.sh
     ```
+
+# Use the API
+The web API is available at http://localhost:5000/pokemon/{pokemonName} (or at any available local network interfaces).
+
+E.g.
+ ```sh
+   http://localhost:5000/pokemon/ditto
+ ```
+
+
