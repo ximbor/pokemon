@@ -6,9 +6,10 @@ This application has been developed using:
 
 # Requirements
 In order to run the application ***docker*** (and ***docker-compose***) must be installed.
+
 It has been tested with the following versions:
  - Docker: version 19.03.8, build afacb8b
- - Docker-compose: version 1.25.4 or 
+ - Docker-compose: version 1.25.4, build 8d51620a
 
 
 # Instructions
