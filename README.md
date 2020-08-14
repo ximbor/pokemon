@@ -6,9 +6,10 @@ This application has been developed using:
 
 # Requirements
 In order to run the application ***docker*** (and ***docker-compose***) must be installed.
+
 It has been tested with the following versions:
  - Docker: version 19.03.8, build afacb8b
- - Docker-compose: version 1.25.4 or 
+ - Docker-compose: version 1.25.4, build 8d51620a
 
 
 # Instructions
@@ -17,7 +18,7 @@ In order to build and start the application run the following script located in 
 
 - ***On Windows***
     ```sh
-    $ start.bat
+    > start.bat
     ```
     
 - ***On Linux***
