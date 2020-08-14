@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pokemon", "Pokemon\Pokemon.csproj", "{B6001F48-7EF7-428C-ABA2-623C9683F5C1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PokemonCore", "PokemonCore\PokemonCore.csproj", "{69C997D2-FAFF-4B04-977F-106D7F0D734B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PokemonTests", "PokemonTests\PokemonTests.csproj", "{DBDCD9A2-48A1-496D-B7DA-B3BC6E163A0F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6001F48-7EF7-428C-ABA2-623C9683F5C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6001F48-7EF7-428C-ABA2-623C9683F5C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6001F48-7EF7-428C-ABA2-623C9683F5C1}.Debug|x64.ActiveCfg = Debug|x64
+		{B6001F48-7EF7-428C-ABA2-623C9683F5C1}.Debug|x64.Build.0 = Debug|x64
+		{B6001F48-7EF7-428C-ABA2-623C9683F5C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6001F48-7EF7-428C-ABA2-623C9683F5C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6001F48-7EF7-428C-ABA2-623C9683F5C1}.Release|x64.ActiveCfg = Release|x64
+		{B6001F48-7EF7-428C-ABA2-623C9683F5C1}.Release|x64.Build.0 = Release|x64
+		{69C997D2-FAFF-4B04-977F-106D7F0D734B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69C997D2-FAFF-4B04-977F-106D7F0D734B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69C997D2-FAFF-4B04-977F-106D7F0D734B}.Debug|x64.ActiveCfg = Debug|x64
+		{69C997D2-FAFF-4B04-977F-106D7F0D734B}.Debug|x64.Build.0 = Debug|x64
+		{69C997D2-FAFF-4B04-977F-106D7F0D734B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69C997D2-FAFF-4B04-977F-106D7F0D734B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69C997D2-FAFF-4B04-977F-106D7F0D734B}.Release|x64.ActiveCfg = Release|x64
+		{69C997D2-FAFF-4B04-977F-106D7F0D734B}.Release|x64.Build.0 = Release|x64
+		{DBDCD9A2-48A1-496D-B7DA-B3BC6E163A0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBDCD9A2-48A1-496D-B7DA-B3BC6E163A0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBDCD9A2-48A1-496D-B7DA-B3BC6E163A0F}.Debug|x64.ActiveCfg = Debug|x64
+		{DBDCD9A2-48A1-496D-B7DA-B3BC6E163A0F}.Debug|x64.Build.0 = Debug|x64
+		{DBDCD9A2-48A1-496D-B7DA-B3BC6E163A0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBDCD9A2-48A1-496D-B7DA-B3BC6E163A0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBDCD9A2-48A1-496D-B7DA-B3BC6E163A0F}.Release|x64.ActiveCfg = Release|x64
+		{DBDCD9A2-48A1-496D-B7DA-B3BC6E163A0F}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EE8D5F77-B137-4557-BDE3-60E6F091E8B1}
+	EndGlobalSection
+EndGlobal
