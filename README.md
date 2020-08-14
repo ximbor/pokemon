@@ -18,7 +18,7 @@ In order to build and start the application run the following script located in 
 
 - ***On Windows***
     ```sh
-    $ start.bat
+    > start.bat
     ```
     
 - ***On Linux***
