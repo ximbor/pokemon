@@ -1,0 +1,14 @@
+version: "3.4"
+
+services:
+    
+    pokemon:
+        container_name: pokemon.app
+        build: .
+        restart: always
+        ports:
+            - "5000:5000"
+        environment:
+            - ASPNETCORE_URLS=http://+:5000
+            - POKEMON_ENPOINT_URL=https://pokeapi.co/api/v2
+            - TEXT_TRANSFORM_ENPOINT_URL=https://api.funtranslations.com/translate/shakespeare
