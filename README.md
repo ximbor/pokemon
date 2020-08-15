@@ -32,9 +32,9 @@ The web API is available at http://localhost:5000/pokemon/{pokemonName} (or at a
 E.g.
 
 Requesting the description of "ditto"
- ```
-   http://localhost:5000/pokemon/ditto
- ```
+
+> http://localhost:5000/pokemon/ditto
+
 should return a response like this
 
 ```
@@ -54,9 +54,9 @@ Transfer-Encoding: chunked
 It's also possible to specify the client's preferred language.
 
 For example we may want to get "ditto's" pokemon description in spanish ("es"):
-```
-http http://localhost:5000/pokemon/ditto Accept-Language:es
-```
+
+> http http://localhost:5000/pokemon/ditto Accept-Language:es
+
 this should return
 ```
 HTTP/1.1 200 OK
