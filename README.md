@@ -17,7 +17,7 @@ It has been tested with the following versions:
 In order to build and start the application run the following script located in the project root:
 
 - ***On Windows***
-    ```sh
+    ```
     > start.bat
     ```
     
