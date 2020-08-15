@@ -35,7 +35,7 @@ Requesting the description of "ditto"
  ```
    http://localhost:5000/pokemon/ditto
  ```
-should return a rewsponse like this
+should return a response like this
 
 ```
 HTTP/1.1 200 OK
@@ -52,7 +52,8 @@ Transfer-Encoding: chunked
 ```
 
 It's also possible to specify the client's preferred language.
-For example we may want to read get "ditto's" pokemon description in spanish:
+
+For example we may want to get "ditto's" pokemon description in spanish ("es"):
 ```
 http http://localhost:5000/pokemon/ditto Accept-Language:es
 ```
@@ -70,4 +71,4 @@ Transfer-Encoding: chunked
 }
 ```
 
-please note that in this case, not Shakespearean translation will be done since it can only translate from english ("en" language).
+please note that in this case, not Shakespearean translation will be done, since it can only translate from english ("en" language).
