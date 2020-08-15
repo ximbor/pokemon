@@ -76,7 +76,7 @@ namespace Pokemon.Services
             {
                 if(exc.Message.Contains("404 (Not Found)"))
                 {
-                    throw new PokemonHttpException(exc.Message, System.Net.HttpStatusCode.NotFound);
+                    throw new PokemonHttpException($"Pokemon '{name}' not found.", System.Net.HttpStatusCode.NotFound);
                 }
 
                 if (exc.HResult == -2147467259)
