@@ -33,7 +33,7 @@ E.g.
 
 Requesting the description of "ditto"
 
-> http://localhost:5000/pokemon/ditto
+> http http://localhost:5000/pokemon/ditto
 
 should return a response like this
 
