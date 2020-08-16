@@ -1,7 +1,7 @@
 # Pokemon
 
 This application has been developed using:
-- Built with Visual Studio 2019
+- Visual Studio 2019
 - .NET Core 3.1
 
 # Requirements
