@@ -26,7 +26,7 @@ In order to build and start the application run the following script located in 
     $ start.sh
     ```
 
-# Use the API
+# Usage
 The web API is available at http://localhost:5000/pokemon/{pokemonName} (or at any available local network interfaces).
 
 E.g.
@@ -71,4 +71,4 @@ Transfer-Encoding: chunked
 }
 ```
 
-please note that in this case, not Shakespearean translation will be done, since it can only translate from english ("en" language).
+please note that in this case, no Shakespearean translation will be done, since it can only translate from english ("en" language).
